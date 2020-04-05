@@ -153,6 +153,7 @@ vm = new Vue({
       Flush: [],
       Alarm: [],
       NoResponse: [],
+      ResumeSentinel: [],
         },
     toggles: {
       'StartTrial': [],
