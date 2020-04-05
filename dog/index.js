@@ -143,22 +143,19 @@ vm = new Vue({
   el: '#app',
   data: {
     states: {
-      Forage: [],
-      OSForage: [],
-      OS: [],
-      Sentinel: [],
-      TerrDef: [],
-      PredAvoid: [],
-      Preen: [],
-      Other: [],
+      ModelOnly: [],
+      CallOnly: [],
+      ModelCall: [],
+      
     },
     events: {
-      Small: [],
-      Med: [],
-      Large: [],
+      Pause: [],
+      Flush: [],
+      Alarm: [],
+      NoResponse: [],
         },
     toggles: {
-      'Start/Timer': [],
+      'StartTrial': [],
     },
     active_state: null,
   },
